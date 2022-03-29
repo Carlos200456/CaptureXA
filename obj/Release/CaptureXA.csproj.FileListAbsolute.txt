@@ -3,9 +3,9 @@ C:\Users\carlo\source\repos\Carlos200456\CaptureXA\bin\Release\CaptureXA.exe
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\bin\Release\CaptureXA.pdb
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.csproj.AssemblyReference.cache
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.csproj.SuggestedBindingRedirects.cache
-C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.Form1.resources
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.Properties.Resources.resources
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.csproj.GenerateResource.cache
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.csproj.CoreCompileInputs.cache
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.exe
 C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.pdb
+C:\Users\carlo\source\repos\Carlos200456\CaptureXA\obj\Release\CaptureXA.CaptureXA.resources

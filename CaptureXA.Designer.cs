@@ -1,6 +1,6 @@
 ﻿namespace CaptureXA
 {
-    partial class Form1
+    partial class CaptureXA
     {
         /// <summary>
         /// Required designer variable.
@@ -36,10 +36,11 @@
             // 
             // buttonFluoro
             // 
-            this.buttonFluoro.Location = new System.Drawing.Point(12, 12);
+            this.buttonFluoro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFluoro.Location = new System.Drawing.Point(7, 12);
             this.buttonFluoro.Name = "buttonFluoro";
             this.buttonFluoro.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.buttonFluoro.Size = new System.Drawing.Size(76, 39);
+            this.buttonFluoro.Size = new System.Drawing.Size(89, 39);
             this.buttonFluoro.TabIndex = 55;
             this.buttonFluoro.Text = "Fluoro";
             this.buttonFluoro.UseVisualStyleBackColor = true;
@@ -48,27 +49,28 @@
             // 
             // buttonCine
             // 
-            this.buttonCine.Location = new System.Drawing.Point(94, 12);
+            this.buttonCine.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.buttonCine.Location = new System.Drawing.Point(104, 12);
             this.buttonCine.Name = "buttonCine";
             this.buttonCine.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.buttonCine.Size = new System.Drawing.Size(76, 39);
+            this.buttonCine.Size = new System.Drawing.Size(89, 39);
             this.buttonCine.TabIndex = 56;
             this.buttonCine.Text = "Cine";
             this.buttonCine.UseVisualStyleBackColor = true;
             this.buttonCine.MouseDown += new System.Windows.Forms.MouseEventHandler(this.buttonCine_MouseDw);
             this.buttonCine.MouseUp += new System.Windows.Forms.MouseEventHandler(this.buttonCine_MouseUp);
             // 
-            // Form1
+            // CaptureXA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(182, 66);
+            this.ClientSize = new System.Drawing.Size(197, 66);
             this.Controls.Add(this.buttonCine);
             this.Controls.Add(this.buttonFluoro);
             this.Location = new System.Drawing.Point(1600, 0);
-            this.Name = "Form1";
+            this.Name = "CaptureXA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form1";
+            this.Text = "CaptureXA";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.CaptureXA_Load);
             this.ResumeLayout(false);

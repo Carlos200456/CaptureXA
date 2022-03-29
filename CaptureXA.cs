@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CaptureXA
 {
-    public partial class Form1 : Form
+    public partial class CaptureXA : Form
     {
-        public Form1()
+        public CaptureXA()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace CaptureXA
             string[] ports = SerialPort.GetPortNames();
             try
             {
-                serialPort1.PortName = "COM3";
+                serialPort1.PortName = "COM4";
                 serialPort1.BaudRate = int.Parse("57600");
                 serialPort1.DataBits = int.Parse("8");
                 serialPort1.StopBits = (StopBits)Enum.Parse(typeof(StopBits), "One");
