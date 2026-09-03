@@ -1,3 +1,54 @@
-obj
-bin
-.vs
+# ---------------------------------------------------------------
+# Artefactos de compilacion (se regeneran solos, no van al repo)
+# ---------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# ---------------------------------------------------------------
+# Visual Studio: cache, estado local del usuario y sesiones de Copilot
+# ---------------------------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.ipch
+*.aps
+*.vsidx
+
+# ---------------------------------------------------------------
+# Binarios y simbolos
+# ---------------------------------------------------------------
+*.exe
+*.dll
+*.pdb
+*.obj
+*.pch
+*.ilk
+*.tlog
+*.lastbuildstate
+*.cache
+*.resources
+
+# ---------------------------------------------------------------
+# NuGet
+# ---------------------------------------------------------------
+packages/
+*.nupkg
+
+# ---------------------------------------------------------------
+# Varios
+# ---------------------------------------------------------------
+*.bak
+*.tmp
+*~
+Thumbs.db
+Desktop.ini
+
+# NOTA: App.config y demas .config de fuente SI se versionan.
+# Por eso no hay una regla "*.config" generica aca.
