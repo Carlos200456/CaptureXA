@@ -32,7 +32,19 @@
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.buttonFluoro = new System.Windows.Forms.Button();
             this.buttonCine = new System.Windows.Forms.Button();
+            this.comboPort = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
+            // 
+            // comboPort
+            // 
+            this.comboPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboPort.FormattingEnabled = true;
+            this.comboPort.Location = new System.Drawing.Point(7, 59);
+            this.comboPort.Name = "comboPort";
+            this.comboPort.Size = new System.Drawing.Size(186, 21);
+            this.comboPort.TabIndex = 57;
+            this.comboPort.DropDown += new System.EventHandler(this.comboPort_DropDown);
+            this.comboPort.SelectionChangeCommitted += new System.EventHandler(this.comboPort_SelectionChangeCommitted);
             // 
             // buttonFluoro
             // 
@@ -64,7 +76,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(197, 66);
+            this.ClientSize = new System.Drawing.Size(197, 90);
+            this.Controls.Add(this.comboPort);
             this.Controls.Add(this.buttonCine);
             this.Controls.Add(this.buttonFluoro);
             this.Location = new System.Drawing.Point(1600, 0);
@@ -82,6 +95,7 @@
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.Button buttonFluoro;
         private System.Windows.Forms.Button buttonCine;
+        private System.Windows.Forms.ComboBox comboPort;
     }
 }
 
