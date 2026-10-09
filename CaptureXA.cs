@@ -23,7 +23,7 @@ namespace CaptureXA
             string[] ports = SerialPort.GetPortNames();
             try
             {
-                serialPort1.PortName = "COM4";
+                serialPort1.PortName = "COM7";
                 serialPort1.BaudRate = int.Parse("57600");
                 serialPort1.DataBits = int.Parse("8");
                 serialPort1.StopBits = (StopBits)Enum.Parse(typeof(StopBits), "One");
